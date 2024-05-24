@@ -5,9 +5,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class NewSeleniumProgram {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
-		driver.get("");
+		driver.get("https:\\www.google.com");
+		
+		Thread.sleep(1000);
+		
+		driver.close();
 	}
 
 }
