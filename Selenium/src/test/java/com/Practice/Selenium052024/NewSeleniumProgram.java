@@ -11,7 +11,7 @@ public class NewSeleniumProgram {
 		
 		Thread.sleep(1000);
 		
-		driver.close();
+		//driver.close();
 	}
 
 }
