@@ -24,7 +24,11 @@ public class NewSeleniumProgram {
 		Thread.sleep(1000);
 		driver.navigate().refresh();
 		
-		driver.close();
+		
+		
+		//driver.close();
+		
+		
 	}
 
 }
