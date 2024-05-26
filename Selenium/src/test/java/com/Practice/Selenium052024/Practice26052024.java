@@ -13,6 +13,8 @@ public class Practice26052024 {
 		
 		String currentTitle = driver.getTitle();
 		System.out.println(currentTitle);
+		
+		System.out.println(driver.getCurrentUrl());
 	}
 	
 	
