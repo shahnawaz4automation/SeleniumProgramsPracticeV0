@@ -24,7 +24,10 @@ public class NewSeleniumProgram {
 		Thread.sleep(1000);
 		driver.navigate().refresh();
 		
+		WebElement textArea = driver.findElement(By.id("textbox1"));
+		textArea.clear();
 		
+		textArea.sendKeys("Mohammed Shahnawaz");
 		
 		//driver.close();
 		
