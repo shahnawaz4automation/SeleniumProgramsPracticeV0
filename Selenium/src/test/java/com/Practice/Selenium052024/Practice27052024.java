@@ -23,7 +23,7 @@ public class Practice27052024 {
 		// Opens LambdaTest homepage in the newly opened window
 		//driver.navigate().to("https://www.lambdatest.com/");
 		
-		//driver.close();driver.quit();
+		driver.quit();
 	}
 
 }
