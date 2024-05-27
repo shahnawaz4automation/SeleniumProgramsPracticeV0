@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Practice27052024 {
@@ -16,7 +17,11 @@ public class Practice27052024 {
 		
 		driver.findElement(By.xpath("//*[@id=\"Blog1\"]/div[4]/div/a")).click();
 		
-		driver.quit();
+		driver.switchTo().newWindow(WindowType.WINDOW);
+		// Opens LambdaTest homepage in the newly opened window
+		driver.navigate().to("https://www.lambdatest.com/");
+		
+		driver.close();driver.quit();
 	}
 
 }
