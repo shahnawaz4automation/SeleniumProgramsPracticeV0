@@ -16,7 +16,7 @@ public class Practice27052024 {
 		
 		driver.findElement(By.xpath("//*[@id=\"Blog1\"]/div[4]/div/a")).click();
 		
-		driver.close();
+		driver.quit();
 	}
 
 }
