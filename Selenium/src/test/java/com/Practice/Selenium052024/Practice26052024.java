@@ -1,7 +1,6 @@
 package com.Practice.Selenium052024;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -15,6 +14,7 @@ public class Practice26052024 {
 		System.out.println(currentTitle);
 		
 		System.out.println(driver.getCurrentUrl());
+		
 	}
 	
 	
