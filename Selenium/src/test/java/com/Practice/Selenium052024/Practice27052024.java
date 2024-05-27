@@ -15,13 +15,15 @@ public class Practice27052024 {
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 		driver.get("https://omayo.blogspot.com/");
 		
-		driver.findElement(By.xpath("//*[@id=\"Blog1\"]/div[4]/div/a")).click();
+		String value = driver.findElement(By.xpath("//*[@id=\"textbox1\"]")).getAttribute("value");
+		System.out.println(value);
+		//driver.findElement(By.xpath("//*[@id=\"Blog1\"]/div[4]/div/a")).click();
 		
-		driver.switchTo().newWindow(WindowType.WINDOW);
+		//driver.switchTo().newWindow(WindowType.TAB);
 		// Opens LambdaTest homepage in the newly opened window
-		driver.navigate().to("https://www.lambdatest.com/");
+		//driver.navigate().to("https://www.lambdatest.com/");
 		
-		driver.close();driver.quit();
+		//driver.close();driver.quit();
 	}
 
 }
