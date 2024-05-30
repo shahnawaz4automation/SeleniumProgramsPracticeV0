@@ -9,9 +9,11 @@ public class Practice29052024 {
 	public static void main(String[] args) {
 		
 		WebDriver driver = new ChromeDriver();
+		//driver.manage().window().maximize();
+		System.out.println("maximized the window");
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
 		driver.get("https://tutorialsninja.com/demo/");
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
+		System.out.println("url loaded");
 		String name = driver.getClass().getName();
 		System.out.println("name is: "+name);
 		
