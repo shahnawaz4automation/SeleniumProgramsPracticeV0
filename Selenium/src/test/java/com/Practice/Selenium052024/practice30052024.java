@@ -14,8 +14,12 @@ public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		System.out.println("maximized the window");
+		driver.get("https://tutorialsninja.com/demo/");
+		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"home\"]")));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/a")));
+		
+		
 
 }
 }
