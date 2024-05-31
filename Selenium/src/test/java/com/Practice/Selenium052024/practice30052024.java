@@ -13,7 +13,9 @@ public class practice30052024 {
 	public static void main(String[] args) {
 
 		WebDriver driver = new ChromeDriver();
+        // Declare and initialize the WebDriver variable with a new ChromeDriver instance
 		driver.manage().window().maximize();
+		// Maximize the current browser window
 		System.out.println("maximized the window");
 		driver.get("https://tutorialsninja.com/demo/");
 		System.out.println("Site loaded");
