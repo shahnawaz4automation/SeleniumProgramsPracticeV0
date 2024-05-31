@@ -26,7 +26,7 @@ public class practice30052024 {
 		
 		System.out.println("waited for element");
 		driver.findElement(By.xpath("/html/body/div[1]/nav/div[2]/ul/li[1]/div/div/ul/li[1]/a")).click();
-		//driver.quit();
+		driver.quit();
 	}
 
 	public static WebElement waitForElementPresent(WebDriver driver, By locator, int timeout) {
