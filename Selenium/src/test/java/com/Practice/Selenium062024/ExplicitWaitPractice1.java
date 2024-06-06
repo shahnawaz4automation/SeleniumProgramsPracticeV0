@@ -16,13 +16,6 @@ public class ExplicitWaitPractice1 {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		ArrayList al = new ArrayList();
-		
-		Iterator itr = al.iterator();
-		System.out.println("executed first");
-		System.out.println(al.getFirst());
-		System.out.println("executed last");
-		al.hashCode();
 	}
 
 }
