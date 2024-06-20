@@ -31,6 +31,8 @@ public class TestClass18062024 {
 
 		WebElement googleimg = driver.findElement(By.xpath("//img[@src='/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png']"));
 		TestClass18062024.elementScreeshot(googleimg);
+		
+		driver.quit();
 
 	}
 
