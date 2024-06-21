@@ -26,11 +26,12 @@ public class TestClass18062024 {
 		timeout.implicitlyWait(Duration.ofSeconds(10));
 
 		driver.get("https://www.google.com");
-		TestClass18062024.takeScreeshot(driver);
+		takeScreeshot(driver);
 		System.out.println("Screenshot is taken, refresh the directory and check");
 
 		WebElement googleimg = driver.findElement(By.xpath("//img[@src='/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png']"));
-		TestClass18062024.elementScreeshot(googleimg);
+		TestClass18062024 tc = new TestClass18062024();
+		tc.elementScreeshot(googleimg);
 		
 		driver.quit();
 
@@ -44,7 +45,7 @@ public class TestClass18062024 {
 		FileUtils.copyFile(src, trg);
 	}
 
-	public static void elementScreeshot(WebElement element) throws IOException {
+	public void elementScreeshot(WebElement element) throws IOException {
 		File src = element.getScreenshotAs(OutputType.FILE);
 		String str = RandomStringUtils.randomAlphabetic(5);
 		File trg = new File("./screenshots/" + str + "homepage.png");
