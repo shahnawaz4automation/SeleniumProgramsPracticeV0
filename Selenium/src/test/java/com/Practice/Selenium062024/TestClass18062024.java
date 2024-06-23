@@ -3,7 +3,6 @@ package com.Practice.Selenium062024;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
@@ -14,12 +13,12 @@ import org.openqa.selenium.WebDriver.Options;
 import org.openqa.selenium.WebDriver.Timeouts;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class TestClass18062024 {
 
 	public static void main(String[] args) throws Exception {
-		WebDriver driver = new ChromeDriver();
+		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		Options option = driver.manage();
 		Timeouts timeout = option.timeouts();
@@ -38,7 +37,7 @@ public class TestClass18062024 {
 	}
 
 	public static void takeScreeshot(WebDriver driver) throws IOException {
-		TakesScreenshot ts = (TakesScreenshot) driver;
+		TakesScreenshot ts = (RemoteWebDriver) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		String str = RandomStringUtils.randomAlphabetic(5);
 		File trg = new File("./screenshots/" + str + "homepage.png");
