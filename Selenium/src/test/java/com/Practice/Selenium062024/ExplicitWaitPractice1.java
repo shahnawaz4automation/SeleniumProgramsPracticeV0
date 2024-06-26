@@ -14,6 +14,7 @@ public class ExplicitWaitPractice1 {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
+		driver.get("https://www.google.com");		
 		
 	}
 
