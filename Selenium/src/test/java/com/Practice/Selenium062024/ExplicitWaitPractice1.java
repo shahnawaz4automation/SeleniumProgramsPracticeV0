@@ -22,8 +22,9 @@ public class ExplicitWaitPractice1 {
 		List<WebElement> elements = driver.findElements(By.xpath("//div[@class='L3eUgb']"));
 		Iterator<WebElement> it = elements.iterator();
 		
+		//checking if the it has anydata
 		while(it.hasNext()) {
-			System.out.println(it.next().getText());			
+			System.out.println(it.next().getText());	
 		}
 		
 	}
