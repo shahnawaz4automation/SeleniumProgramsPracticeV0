@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ToolTipPractice1 {
@@ -21,7 +22,11 @@ public class ToolTipPractice1 {
 		Actions act = new Actions(driver);
 		act.moveToElement(elementToMouseHover).perform();
 		
-		//driver.quit();
+		String text = driver.findElement(By.xpath("//div[@class='tooltip-inner']")).getText();
+		
+		Assert.assertTrue(text.contains("Hooray"));
+		
+		driver.quit();
 	}
 	
 }
