@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-30T20:58:25 IST" name="Default suite" finished-at="2024-06-30T20:58:32 IST" duration-ms="6478">
+  <suite started-at="2024-07-01T21:52:51 IST" name="Default suite" finished-at="2024-07-01T21:53:01 IST" duration-ms="9516">
     <groups>
     </groups>
-    <test started-at="2024-06-30T20:58:25 IST" name="Default test" finished-at="2024-06-30T20:58:32 IST" duration-ms="6478">
+    <test started-at="2024-07-01T21:52:51 IST" name="Default test" finished-at="2024-07-01T21:53:01 IST" duration-ms="9516">
       <class name="com.Practice.Selenium062024.ToolTipPractice1">
-        <test-method signature="validateToolTip()[pri:0, instance:com.Practice.Selenium062024.ToolTipPractice1@6069db50]" started-at="2024-06-30T20:58:25 IST" name="validateToolTip" finished-at="2024-06-30T20:58:32 IST" duration-ms="6432" status="PASS">
+        <test-method signature="validateToolTip()[pri:0, instance:com.Practice.Selenium062024.ToolTipPractice1@6069db50]" started-at="2024-07-01T21:52:51 IST" name="validateToolTip" finished-at="2024-07-01T21:53:01 IST" duration-ms="9425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateToolTip -->
