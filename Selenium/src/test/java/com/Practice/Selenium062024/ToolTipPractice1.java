@@ -1,6 +1,7 @@
 package com.Practice.Selenium062024;
 
 import java.time.Duration;
+import java.util.Date;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,6 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ToolTipPractice1 {
+	@SuppressWarnings("deprecation")
 	@Test
 	public void validateToolTip() {
 		WebDriver driver = new ChromeDriver();
@@ -26,6 +28,12 @@ public class ToolTipPractice1 {
 		
 		Assert.assertTrue(text.contains("Hooray"));
 		
+		Date dt = new Date();
+		int year = dt.getYear();
+		int date = dt.getDate();
+		int month = dt.getMonth();
+		
+		System.out.println(year+"/"+month+"/"+date);
 		driver.quit();
 	}
 	
