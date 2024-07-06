@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Practice.Selenium062024.ToolTipPractice1">
+      <class name="com.Practice.Selenium072024.SelectDropDown">
         <methods>
-          <include name="validateToolTip"/>
+          <include name="selectDropDown"/>
         </methods>
-      </class> <!-- com.Practice.Selenium062024.ToolTipPractice1 -->
+      </class> <!-- com.Practice.Selenium072024.SelectDropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
