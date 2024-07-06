@@ -23,5 +23,10 @@ public class SelectDropDown {
 
 		List<WebElement> dropDownValues = select.getOptions();
 		System.out.println("Total dropdown values: " + dropDownValues.size());
+		
+		for (int i = 0; i<dropDownValues.size();i++) {
+			System.out.println(dropDownValues.get(i).getText());	
+		}
+		
 	}
 }
