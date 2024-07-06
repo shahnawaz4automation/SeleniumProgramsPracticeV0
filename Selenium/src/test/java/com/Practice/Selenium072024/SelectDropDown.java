@@ -7,18 +7,19 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 public class SelectDropDown {
 	@Test
-	public void selectDropDown() {
+	public void selectDropDown() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().window().maximize();
+		driver.manage().window().fullscreen();
+		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-		driver.get("http://testautomationpractice.blogspot.com/");
+		String URL = "https://testautomationpractice.blogspot.com/";
+		driver.get(URL);
 
 		WebElement dropDown = driver.findElement(By.id("country"));
 		if (dropDown.isDisplayed()) {
@@ -31,36 +32,27 @@ public class SelectDropDown {
 			}
 		}
 		System.out.println("-------------------------------------------------------------------------------------------------------------------");
-		driver.get("https://www.jquery-az.com/boots/demo.php?ex=63.0_2");
-
-		driver.findElement(By.xpath("//button[@class='multiselect dropdown-toggle btn btn-default']")).click();
-
-		// driver.findElement(By.xpath("//input[@value='Angular']")).click();
-
-		List<WebElement> dropDownValues = driver
-				.findElements(By.xpath("//ul[@class='multiselect-container dropdown-menu']//li//a//label"));
-		int sizeOfValues = dropDownValues.size();
-		System.out.println(sizeOfValues);
-		for (WebElement options : dropDownValues) {
-			String text = options.getText();
-
-			if (text.contains("Angular") || text.contains("Java") || text.contains("Bootstrap")) {
-				options.click();
-			}
-		}
-		System.out.println("-------------------------------------------------------------------------------------------------------------------");
-		driver.get("http://testautomationpractice.blogspot.com/");
-
-		WebElement dropDown1 = driver.findElement(By.id("country"));
-		if (dropDown1.isDisplayed()) {
-			Select select = new Select(dropDown1);
-			List<WebElement> dropDownValues1 = select.getOptions();
-			System.out.println("Total dropdown values: " + dropDownValues1.size());
-
-			for (int i = 0; i < dropDownValues1.size(); i++) {
-				System.out.println(dropDownValues1.get(i).getText());
-			}
-		}
-		driver.quit();
+		
+	    WebElement field1 = driver.findElement(By.xpath("//input[@id='field1']"));
+	    field1.clear();
+	    String name = "Mohammed Shahnawaz";
+	    field1.sendKeys(name);
+	    WebElement copyTextButton = driver.findElement(By.xpath("//button[@ondblclick='myFunction1()']"));
+	    Actions action = new Actions(driver);
+	    action.doubleClick(copyTextButton).build().perform();
+	    System.out.println("Double clicked");
+	    String field2text = driver.findElement(By.xpath("//input[@id='field2']")).getAttribute("value");
+	    System.out.println(field2text);
+	    if(field2text.equalsIgnoreCase(name)) {
+	    	System.out.println("Double clicked and the text is copied");
+	    }else {
+	    	System.out.println("text not copied");
+	    }
+	    
+	    driver.findElement(By.xpath("//a[@class='wikipedia-search-wiki-link']")).click();
+	    Thread.sleep(1000);
+		
+	    System.out.println(driver.getClass().getSimpleName());
+	    //driver.quit();
 	}
 }

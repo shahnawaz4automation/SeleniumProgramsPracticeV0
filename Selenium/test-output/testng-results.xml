@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-07T02:05:11 IST" name="Default suite" finished-at="2024-07-07T02:05:28 IST" duration-ms="16514">
+  <suite started-at="2024-07-07T03:03:21 IST" name="Default suite" finished-at="2024-07-07T03:03:33 IST" duration-ms="11354">
     <groups>
     </groups>
-    <test started-at="2024-07-07T02:05:11 IST" name="Default test" finished-at="2024-07-07T02:05:28 IST" duration-ms="16514">
+    <test started-at="2024-07-07T03:03:21 IST" name="Default test" finished-at="2024-07-07T03:03:33 IST" duration-ms="11354">
       <class name="com.Practice.Selenium072024.SelectDropDown">
-        <test-method signature="selectDropDown()[pri:0, instance:com.Practice.Selenium072024.SelectDropDown@6069db50]" started-at="2024-07-07T02:05:12 IST" name="selectDropDown" finished-at="2024-07-07T02:05:28 IST" duration-ms="16465" status="PASS">
+        <test-method signature="selectDropDown()[pri:0, instance:com.Practice.Selenium072024.SelectDropDown@4efbca5a]" started-at="2024-07-07T03:03:21 IST" name="selectDropDown" finished-at="2024-07-07T03:03:33 IST" duration-ms="11310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDropDown -->
