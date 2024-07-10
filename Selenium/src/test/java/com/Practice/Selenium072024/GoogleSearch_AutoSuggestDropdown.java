@@ -26,7 +26,7 @@ public class GoogleSearch_AutoSuggestDropdown {
 		for (int i = 0; i < size; i++) {
 			if(list.get(i).getText().contains("webdriver")) {
 				list.get(i).click();
-				break; //*****************************very important
+				break; //*****************************very important because after finding and clicking on the element we should break the loop
 			}
 		}
 		/*
@@ -39,6 +39,7 @@ public class GoogleSearch_AutoSuggestDropdown {
 			}
 		 */
 		Thread.sleep(1000);
+		driver.findElement(By.xpath("//cite[text()='https://www.selenium.dev']")).click();
 		driver.quit();
 	}
 
