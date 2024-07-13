@@ -26,7 +26,7 @@ public class GoogleSearch_AutoSuggestDropdown {
 		for (int i = 0; i < size; i++) {
 			if(list.get(i).getText().contains("webdriver")) {
 				list.get(i).click();
-				break; //*****************************very important because after finding and clicking on the element we should break the loop
+				//break; //*****************************very important because after finding and clicking on the element we should break the loop otherwise it will search for next element to click - if it does not get we will get StaleElementReferenceException.
 			}
 		}
 		/*
