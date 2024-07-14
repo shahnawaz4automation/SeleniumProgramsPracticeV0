@@ -26,7 +26,9 @@ public class GoogleSearch_AutoSuggestDropdown {
 		for (int i = 0; i < size; i++) {
 			if(list.get(i).getText().contains("webdriver")) {
 				list.get(i).click();
-				//break; //*****************************very important because after finding and clicking on the element we should break the loop otherwise it will search for next element to click - if it does not get we will get StaleElementReferenceException.
+				System.out.println("break");
+				break;
+				//*****************************very important because after finding and clicking on the element we should break the loop otherwise it will search for next element to click - if it does not get we will get StaleElementReferenceException.
 			}
 		}
 		/*
@@ -41,6 +43,7 @@ public class GoogleSearch_AutoSuggestDropdown {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//cite[text()='https://www.selenium.dev']")).click();
 		driver.quit();
+		System.out.println("completed the testing");
 	}
 
 }
