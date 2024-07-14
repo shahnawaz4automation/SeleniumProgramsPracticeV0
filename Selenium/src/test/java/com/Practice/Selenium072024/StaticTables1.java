@@ -3,6 +3,7 @@ package com.Practice.Selenium072024;
 import java.time.Duration;
 import java.util.List;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -41,9 +42,14 @@ public class StaticTables1 {
 			}
 			System.out.println();
 		}
+		String sam = "sam";
+		int nam = 123;
+		StringBuffer sb = new StringBuffer(String.valueOf(nam));
+		System.out.println(sb.reverse());
+		
 		closeDriver(driver);
 	}
-
+	
 	public static void closeDriver(WebDriver driver) {
 		driver.quit();
 	}
