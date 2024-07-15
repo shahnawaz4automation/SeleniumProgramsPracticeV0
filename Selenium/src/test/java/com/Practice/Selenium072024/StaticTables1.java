@@ -42,10 +42,6 @@ public class StaticTables1 {
 			}
 			System.out.println();
 		}
-		String sam = "sam";
-		int nam = 123;
-		StringBuffer sb = new StringBuffer(String.valueOf(nam));
-		System.out.println(sb.reverse());
 		
 		closeDriver(driver);
 	}
