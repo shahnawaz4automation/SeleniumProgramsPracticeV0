@@ -38,7 +38,7 @@ public class IframesDemo1 {
 		else {
 			System.out.println("Did not switch to inner Iframe");
 		}
-		driver.switchTo().defaultContent();
+		driver.switchTo().parentFrame();
 		String outerText1 = driver.findElement(By.xpath("//body[@contenteditable='false']//p")).getText();
 		if(outerText1.contains("You can use the height and width attributes to specify the size of the iframe")) {
 			System.out.println("Successfully switched back to outerIframe");
@@ -48,6 +48,8 @@ public class IframesDemo1 {
 		}
 		//String text = driver.findElement(By.xpath("//span[text()='HTML Iframes']")).getText();
 		//System.out.println(text);
+		
+		driver.quit();
 	}
 	public static WebElement explicitWait(WebDriver driver, int timeout, By locator) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
