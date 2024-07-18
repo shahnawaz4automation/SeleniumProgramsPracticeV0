@@ -1,9 +1,13 @@
 package com.Practice.Selenium072024;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,9 +31,17 @@ public class PaginationDemo4234 {
 		WebElement passWord = driver.findElement(By.xpath("//input[@name='password']"));
 		passWord.clear();
 		passWord.sendKeys("demo");
+		File src = passWord.getScreenshotAs(OutputType.FILE);
+		File trg = new File(".\\Screenshots\\screenshto.png");
+		try {
+			FileUtils.copyDirectory(src, trg);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ENTER).perform();
+		
 	}
 	
 	public static WebElement explicitWait(WebDriver driver, int timeout, By locator) {
