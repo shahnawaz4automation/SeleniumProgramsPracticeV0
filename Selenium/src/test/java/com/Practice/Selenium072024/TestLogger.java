@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestLogger {
 
 	public static WebDriver driver;
-	public static final Logger logger = LogManager.getLogger();
+	public static final Logger logger = LogManager.getLogger(TestLogger.class);
 	
 	public static void main(String[] args) {
 

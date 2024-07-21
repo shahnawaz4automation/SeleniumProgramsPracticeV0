@@ -1,83 +1,51 @@
-[INFO ] 2024-07-21 09:38:04.895 [main] TestLogger - ChromeDriver object created
-[INFO ] 2024-07-21 09:38:04.905 [main] TestLogger - Implicit wait of 10 seconds
-[INFO ] 2024-07-21 09:38:07.460 [main] TestLogger - Logged into Myntra
-[INFO ] 2024-07-21 09:38:07.711 [main] TestLogger - Quitting the driver
-[INFO ] 2024-07-21 09:38:32.920 [main] TestLogger - ChromeDriver object created
-[INFO ] 2024-07-21 09:38:32.929 [main] TestLogger - Implicit wait of 10 seconds
-[INFO ] 2024-07-21 09:38:35.620 [main] TestLogger - Logged into Myntra
-[INFO ] 2024-07-21 09:38:35.857 [main] TestLogger - Quitting the driver
-[INFO ] 2024-07-21 09:40:34.200 [main] TestLogger - ChromeDriver object created
-[FATAL] 2024-07-21 09:40:34.210 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 09:40:37.108 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 09:40:37.108 [main] TestLogger - warn Logged into Myntra
-[DEBUG] 2024-07-21 09:40:37.108 [main] TestLogger - debug Logged into Myntra
-[DEBUG] 2024-07-21 09:40:37.351 [main] TestLogger - Quitting the driver
-[INFO ] 2024-07-21 09:41:48.574 [main] TestLogger - ChromeDriver object created
-[FATAL] 2024-07-21 09:41:48.584 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 09:41:51.491 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 09:41:51.492 [main] TestLogger - warn Logged into Myntra
-[DEBUG] 2024-07-21 09:41:51.493 [main] TestLogger - debug Logged into Myntra
-[DEBUG] 2024-07-21 09:41:51.728 [main] TestLogger - Quitting the driver
-[INFO ] 2024-07-21 09:42:19.967 [main] TestLogger - ChromeDriver object created
-[FATAL] 2024-07-21 09:42:19.984 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 09:42:36.178 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 09:42:36.178 [main] TestLogger - warn Logged into Myntra
-[DEBUG] 2024-07-21 09:42:36.178 [main] TestLogger - debug Logged into Myntra
-[WARN ] 2024-07-21 09:42:36.208 [main] TestLogger - Exception occured
-java.lang.Exception: Element Not Found
-	at com.Practice.Selenium072024.TestLogger.main(TestLogger.java:32) [test-classes/:?]
-[DEBUG] 2024-07-21 09:42:36.420 [main] TestLogger - Quitting the driver
-[INFO ] 2024-07-21 09:42:40.355 [main] TestLogger - ChromeDriver object created
-[FATAL] 2024-07-21 09:42:40.365 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 09:42:50.869 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 09:42:50.870 [main] TestLogger - warn Logged into Myntra
-[DEBUG] 2024-07-21 09:42:50.871 [main] TestLogger - debug Logged into Myntra
-[DEBUG] 2024-07-21 09:42:51.227 [main] TestLogger - Quitting the driver
-[INFO ] 2024-07-21 09:43:26.691 [main] TestLogger - ChromeDriver object created
-[FATAL] 2024-07-21 09:43:26.703 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 09:43:29.119 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 09:43:29.120 [main] TestLogger - warn Logged into Myntra
-[DEBUG] 2024-07-21 09:43:29.120 [main] TestLogger - debug Logged into Myntra
-[DEBUG] 2024-07-21 09:43:29.404 [main] TestLogger - Quitting the driver
-[INFO ] 2024-07-21 09:44:06.180 [main] TestLogger - ChromeDriver object created
-[FATAL] 2024-07-21 09:44:06.210 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 09:44:08.494 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 09:44:08.495 [main] TestLogger - warn Logged into Myntra
-[DEBUG] 2024-07-21 09:44:08.496 [main] TestLogger - debug Logged into Myntra
-[DEBUG] 2024-07-21 09:44:08.726 [main] TestLogger - Quitting the driver
-[INFO ] 2024-07-21 09:46:10.644 [main] TestLogger - ChromeDriver object created
-[FATAL] 2024-07-21 09:46:10.681 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 09:46:12.959 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 09:46:12.959 [main] TestLogger - warn Logged into Myntra
-[DEBUG] 2024-07-21 09:46:12.959 [main] TestLogger - debug Logged into Myntra
-[DEBUG] 2024-07-21 09:46:13.183 [main] TestLogger - Quitting the driver
-[FATAL] 2024-07-21 10:09:30.746 [main] TestLogger - Implicit wait of 10 seconds
-[FATAL] 2024-07-21 10:10:04.525 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 10:10:07.951 [main] TestLogger - error Logged into Myntra
-[FATAL] 2024-07-21 10:10:40.904 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 10:10:42.254 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 10:10:42.255 [main] TestLogger - warn Logged into Myntra
-[INFO ] 2024-07-21 10:11:03.142 [main] TestLogger - ChromeDriver object created
-[FATAL] 2024-07-21 10:11:03.154 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 10:11:05.719 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 10:11:05.720 [main] TestLogger - warn Logged into Myntra
-[INFO ] 2024-07-21 10:11:31.399 [main] TestLogger - ChromeDriver object created
-[FATAL] 2024-07-21 10:11:31.413 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 10:11:34.813 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 10:11:34.814 [main] TestLogger - warn Logged into Myntra
-[DEBUG] 2024-07-21 10:11:34.815 [main] TestLogger - debug Logged into Myntra
-[DEBUG] 2024-07-21 10:11:35.058 [main] TestLogger - Quitting the driver
-[INFO ] 2024-07-21 10:12:03.575 [main] TestLogger - ChromeDriver object created
-[FATAL] 2024-07-21 10:12:03.588 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 10:12:05.921 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 10:12:05.921 [main] TestLogger - warn Logged into Myntra
-[DEBUG] 2024-07-21 10:12:05.922 [main] TestLogger - debug Logged into Myntra
-[TRACE] 2024-07-21 10:12:05.922 [main] TestLogger - trace Logged into Myntra
-[DEBUG] 2024-07-21 10:12:06.163 [main] TestLogger - Quitting the driver
-[INFO ] 2024-07-21 10:13:36.002 [main] TestLogger - ChromeDriver object created
-[FATAL] 2024-07-21 10:13:36.017 [main] TestLogger - Implicit wait of 10 seconds
-[ERROR] 2024-07-21 10:13:38.424 [main] TestLogger - error Logged into Myntra
-[WARN ] 2024-07-21 10:13:38.424 [main] TestLogger - warn Logged into Myntra
-[DEBUG] 2024-07-21 10:13:38.425 [main] TestLogger - debug Logged into Myntra
-[TRACE] 2024-07-21 10:13:38.425 [main] TestLogger - trace Logged into Myntra
-[DEBUG] 2024-07-21 10:13:38.683 [main] TestLogger - Quitting the driver
+[DEBUG] 2024-07-21 11:34:25.299 [main] TestNG:82 - suiteXmlPath: "C:\Users\shah4\AppData\Local\Temp\testng-eclipse-951704583\testng-customsuite.xml"
+[INFO ] 2024-07-21 11:34:25.519 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-07-21 11:34:25.524 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ] 2024-07-21 11:34:25.527 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.528 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.528 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.528 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.529 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.529 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.529 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.529 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.529 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.530 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.530 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.530 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.530 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.530 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.533 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.534 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.534 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.534 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.538 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.538 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.539 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.539 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.546 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+[TRACE] 2024-07-21 11:34:25.550 [main] Graph:52 - [Graph] ADDING NODE Sun1105Demo.test()[pri:0, instance:com.Practice.Selenium072024.Sun1105Demo@3f6db3fb] 1231271737
+[TRACE] 2024-07-21 11:34:25.550 [main] Graph:52 - [Graph] ================ SORTING
+[TRACE] 2024-07-21 11:34:25.555 [main] Graph:52 - [Graph] =============== DONE SORTING
+[TRACE] 2024-07-21 11:34:25.557 [main] Graph:52 - [Graph] ====== SORTED NODES
+[TRACE] 2024-07-21 11:34:25.557 [main] Graph:52 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-07-21 11:34:25.557 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+[INFO ] 2024-07-21 11:34:25.558 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.559 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.559 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.559 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 11:34:25.569 [main] Utils:112 - [TestNG] Running:
+  C:\Users\shah4\AppData\Local\Temp\testng-eclipse-951704583\testng-customsuite.xml
+
+[INFO ] 2024-07-21 11:34:25.592 [main] Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+[INFO ] 2024-07-21 11:34:27.383 [main] Sun1105Demo:25 - Initialized chrome driver
+[INFO ] 2024-07-21 11:34:27.433 [main] Sun1105Demo:27 - Maximized the window
+[INFO ] 2024-07-21 11:34:32.581 [main] Sun1105Demo:32 - Element is loaded and is visible
+[INFO ] 2024-07-21 11:34:32.713 [main] Sun1105Demo:34 - Entered data in name input field
+[INFO ] 2024-07-21 11:34:32.912 [main] Sun1105Demo:40 - Taken screenshot
+[INFO ] 2024-07-21 11:34:33.022 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@19ccca5: 67 ms
+[INFO ] 2024-07-21 11:34:33.023 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@769d513: 1 ms
+[INFO ] 2024-07-21 11:34:33.031 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@7573e12f: 7 ms
+[INFO ] 2024-07-21 11:34:33.036 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5af97169: 4 ms
+[INFO ] 2024-07-21 11:34:33.044 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4390f46e: 7 ms
+[INFO ] 2024-07-21 11:34:33.045 [main] Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7c6442c2: 0 ms
