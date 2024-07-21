@@ -18,7 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 public class Sun1105Demo {
-	public static final Logger logger = LogManager.getLogger();
+	public final Logger logger = LogManager.getLogger();
 	@Test
 	public void test() throws IOException {
 		WebDriver driver = new ChromeDriver();
