@@ -1,0 +1,83 @@
+[INFO ] 2024-07-21 09:38:04.895 [main] TestLogger - ChromeDriver object created
+[INFO ] 2024-07-21 09:38:04.905 [main] TestLogger - Implicit wait of 10 seconds
+[INFO ] 2024-07-21 09:38:07.460 [main] TestLogger - Logged into Myntra
+[INFO ] 2024-07-21 09:38:07.711 [main] TestLogger - Quitting the driver
+[INFO ] 2024-07-21 09:38:32.920 [main] TestLogger - ChromeDriver object created
+[INFO ] 2024-07-21 09:38:32.929 [main] TestLogger - Implicit wait of 10 seconds
+[INFO ] 2024-07-21 09:38:35.620 [main] TestLogger - Logged into Myntra
+[INFO ] 2024-07-21 09:38:35.857 [main] TestLogger - Quitting the driver
+[INFO ] 2024-07-21 09:40:34.200 [main] TestLogger - ChromeDriver object created
+[FATAL] 2024-07-21 09:40:34.210 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 09:40:37.108 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 09:40:37.108 [main] TestLogger - warn Logged into Myntra
+[DEBUG] 2024-07-21 09:40:37.108 [main] TestLogger - debug Logged into Myntra
+[DEBUG] 2024-07-21 09:40:37.351 [main] TestLogger - Quitting the driver
+[INFO ] 2024-07-21 09:41:48.574 [main] TestLogger - ChromeDriver object created
+[FATAL] 2024-07-21 09:41:48.584 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 09:41:51.491 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 09:41:51.492 [main] TestLogger - warn Logged into Myntra
+[DEBUG] 2024-07-21 09:41:51.493 [main] TestLogger - debug Logged into Myntra
+[DEBUG] 2024-07-21 09:41:51.728 [main] TestLogger - Quitting the driver
+[INFO ] 2024-07-21 09:42:19.967 [main] TestLogger - ChromeDriver object created
+[FATAL] 2024-07-21 09:42:19.984 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 09:42:36.178 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 09:42:36.178 [main] TestLogger - warn Logged into Myntra
+[DEBUG] 2024-07-21 09:42:36.178 [main] TestLogger - debug Logged into Myntra
+[WARN ] 2024-07-21 09:42:36.208 [main] TestLogger - Exception occured
+java.lang.Exception: Element Not Found
+	at com.Practice.Selenium072024.TestLogger.main(TestLogger.java:32) [test-classes/:?]
+[DEBUG] 2024-07-21 09:42:36.420 [main] TestLogger - Quitting the driver
+[INFO ] 2024-07-21 09:42:40.355 [main] TestLogger - ChromeDriver object created
+[FATAL] 2024-07-21 09:42:40.365 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 09:42:50.869 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 09:42:50.870 [main] TestLogger - warn Logged into Myntra
+[DEBUG] 2024-07-21 09:42:50.871 [main] TestLogger - debug Logged into Myntra
+[DEBUG] 2024-07-21 09:42:51.227 [main] TestLogger - Quitting the driver
+[INFO ] 2024-07-21 09:43:26.691 [main] TestLogger - ChromeDriver object created
+[FATAL] 2024-07-21 09:43:26.703 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 09:43:29.119 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 09:43:29.120 [main] TestLogger - warn Logged into Myntra
+[DEBUG] 2024-07-21 09:43:29.120 [main] TestLogger - debug Logged into Myntra
+[DEBUG] 2024-07-21 09:43:29.404 [main] TestLogger - Quitting the driver
+[INFO ] 2024-07-21 09:44:06.180 [main] TestLogger - ChromeDriver object created
+[FATAL] 2024-07-21 09:44:06.210 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 09:44:08.494 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 09:44:08.495 [main] TestLogger - warn Logged into Myntra
+[DEBUG] 2024-07-21 09:44:08.496 [main] TestLogger - debug Logged into Myntra
+[DEBUG] 2024-07-21 09:44:08.726 [main] TestLogger - Quitting the driver
+[INFO ] 2024-07-21 09:46:10.644 [main] TestLogger - ChromeDriver object created
+[FATAL] 2024-07-21 09:46:10.681 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 09:46:12.959 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 09:46:12.959 [main] TestLogger - warn Logged into Myntra
+[DEBUG] 2024-07-21 09:46:12.959 [main] TestLogger - debug Logged into Myntra
+[DEBUG] 2024-07-21 09:46:13.183 [main] TestLogger - Quitting the driver
+[FATAL] 2024-07-21 10:09:30.746 [main] TestLogger - Implicit wait of 10 seconds
+[FATAL] 2024-07-21 10:10:04.525 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 10:10:07.951 [main] TestLogger - error Logged into Myntra
+[FATAL] 2024-07-21 10:10:40.904 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 10:10:42.254 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 10:10:42.255 [main] TestLogger - warn Logged into Myntra
+[INFO ] 2024-07-21 10:11:03.142 [main] TestLogger - ChromeDriver object created
+[FATAL] 2024-07-21 10:11:03.154 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 10:11:05.719 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 10:11:05.720 [main] TestLogger - warn Logged into Myntra
+[INFO ] 2024-07-21 10:11:31.399 [main] TestLogger - ChromeDriver object created
+[FATAL] 2024-07-21 10:11:31.413 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 10:11:34.813 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 10:11:34.814 [main] TestLogger - warn Logged into Myntra
+[DEBUG] 2024-07-21 10:11:34.815 [main] TestLogger - debug Logged into Myntra
+[DEBUG] 2024-07-21 10:11:35.058 [main] TestLogger - Quitting the driver
+[INFO ] 2024-07-21 10:12:03.575 [main] TestLogger - ChromeDriver object created
+[FATAL] 2024-07-21 10:12:03.588 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 10:12:05.921 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 10:12:05.921 [main] TestLogger - warn Logged into Myntra
+[DEBUG] 2024-07-21 10:12:05.922 [main] TestLogger - debug Logged into Myntra
+[TRACE] 2024-07-21 10:12:05.922 [main] TestLogger - trace Logged into Myntra
+[DEBUG] 2024-07-21 10:12:06.163 [main] TestLogger - Quitting the driver
+[INFO ] 2024-07-21 10:13:36.002 [main] TestLogger - ChromeDriver object created
+[FATAL] 2024-07-21 10:13:36.017 [main] TestLogger - Implicit wait of 10 seconds
+[ERROR] 2024-07-21 10:13:38.424 [main] TestLogger - error Logged into Myntra
+[WARN ] 2024-07-21 10:13:38.424 [main] TestLogger - warn Logged into Myntra
+[DEBUG] 2024-07-21 10:13:38.425 [main] TestLogger - debug Logged into Myntra
+[TRACE] 2024-07-21 10:13:38.425 [main] TestLogger - trace Logged into Myntra
+[DEBUG] 2024-07-21 10:13:38.683 [main] TestLogger - Quitting the driver
