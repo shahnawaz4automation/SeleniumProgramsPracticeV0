@@ -15,10 +15,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class Sun1105Demo {
 	public final Logger logger = LogManager.getLogger();
+	SoftAssert softAssert = new SoftAssert();
 	@Test
 	public void test() throws IOException {
 		WebDriver driver = new ChromeDriver();
@@ -39,6 +42,15 @@ public class Sun1105Demo {
 		FileUtils.copyFile(src, tgt);
 		logger.info("Taken screenshot");
 		
+		WebElement nameInput1 = driver.findElement(By.id("name"));
+		String class1 = nameInput1.getAttribute("class");
+		softAssert.assertTrue(class1.contains("contrdol"));
+		logger.info("1");
+		logger.info("2");
+		logger.info("3");
+		logger.info("4");
 		
+		driver.quit();
+		softAssert.assertAll();
 	}
 }
