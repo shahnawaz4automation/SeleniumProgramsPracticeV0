@@ -58,6 +58,25 @@
 			<artifactId>maven-dependency-plugin</artifactId>
 			<version>3.7.1</version>
 		</dependency>
+		<!-- 
+		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.23.1</version>
+		</dependency>
+		<!-- The log4j-to-slf4j dependency is used to bridge logging calls made
+		to the Log4j 1.x API to the Simple Logging Facade for Java (SLF4J). This
+		allows applications that use Log4j 1.x for logging to work with SLF4J
+		and any underlying logging framework supported by SLF4J, such as Logback
+		or Log4j 2.
+		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j2-impl -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j2-impl</artifactId>
+			<version>2.23.1</version>
+			<scope>test</scope>
+		</dependency>
 
 
 	</dependencies>
