@@ -1,60 +1,65 @@
-[DEBUG] 2024-07-21 12:35:17.147 [main] TestNG:82 - suiteXmlPath: "C:\Users\shah4\AppData\Local\Temp\testng-eclipse-4402114\testng-customsuite.xml"
-[INFO ] 2024-07-21 12:35:17.349 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-[INFO ] 2024-07-21 12:35:17.353 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
-[INFO ] 2024-07-21 12:35:17.355 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.356 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.357 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.357 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.357 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.358 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.358 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.358 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.358 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.358 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.358 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.358 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.358 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.360 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.362 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.362 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.363 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.363 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.367 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.367 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.368 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.368 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.375 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
-[TRACE] 2024-07-21 12:35:17.376 [main] Graph:52 - [Graph] ADDING NODE Sun1105Demo.test()[pri:0, instance:com.Practice.Selenium072024.Sun1105Demo@736d6a5c] 2103668122
-[TRACE] 2024-07-21 12:35:17.377 [main] Graph:52 - [Graph] ================ SORTING
-[TRACE] 2024-07-21 12:35:17.382 [main] Graph:52 - [Graph] =============== DONE SORTING
-[TRACE] 2024-07-21 12:35:17.382 [main] Graph:52 - [Graph] ====== SORTED NODES
-[TRACE] 2024-07-21 12:35:17.382 [main] Graph:52 - [Graph] ====== END SORTED NODES
-[INFO ] 2024-07-21 12:35:17.382 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
-[INFO ] 2024-07-21 12:35:17.384 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.384 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.384 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.384 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ] 2024-07-21 12:35:17.392 [main] Utils:112 - [TestNG] Running:
-  C:\Users\shah4\AppData\Local\Temp\testng-eclipse-4402114\testng-customsuite.xml
+[DEBUG] 2024-07-21 19:47:38.384 [main] TestNG:82 - suiteXmlPath: "C:\Users\shah4\AppData\Local\Temp\testng-eclipse--265966852\testng-customsuite.xml"
+[INFO ] 2024-07-21 19:47:38.731 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-07-21 19:47:38.739 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+[INFO ] 2024-07-21 19:47:38.742 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.742 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.743 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.744 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.755 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+[TRACE] 2024-07-21 19:47:38.766 [main] Graph:52 - [Graph] ADDING NODE Sun1105Demo.tearDown()[pri:0, instance:null] 826344052
+[TRACE] 2024-07-21 19:47:38.767 [main] Graph:52 - [Graph] ================ SORTING
+[TRACE] 2024-07-21 19:47:38.775 [main] Graph:52 - [Graph] =============== DONE SORTING
+[TRACE] 2024-07-21 19:47:38.775 [main] Graph:52 - [Graph] ====== SORTED NODES
+[TRACE] 2024-07-21 19:47:38.775 [main] Graph:52 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-07-21 19:47:38.776 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 19 ms.
+[INFO ] 2024-07-21 19:47:38.777 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.778 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.778 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.779 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.780 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.780 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.782 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.782 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.785 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.785 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.786 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.787 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.793 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.794 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-07-21 19:47:38.794 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.794 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.796 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[TRACE] 2024-07-21 19:47:38.797 [main] Graph:52 - [Graph] ADDING NODE Sun1105Demo.test()[pri:0, instance:com.Practice.Selenium072024.Sun1105Demo@7096b474] 2056042418
+[TRACE] 2024-07-21 19:47:38.797 [main] Graph:52 - [Graph] ================ SORTING
+[TRACE] 2024-07-21 19:47:38.798 [main] Graph:52 - [Graph] =============== DONE SORTING
+[TRACE] 2024-07-21 19:47:38.798 [main] Graph:52 - [Graph] ====== SORTED NODES
+[TRACE] 2024-07-21 19:47:38.799 [main] Graph:52 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-07-21 19:47:38.799 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+[INFO ] 2024-07-21 19:47:38.804 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[TRACE] 2024-07-21 19:47:38.805 [main] Graph:52 - [Graph] ADDING NODE Sun1105Demo.tearDown()[pri:0, instance:com.Practice.Selenium072024.Sun1105Demo@7096b474] 1735786624
+[TRACE] 2024-07-21 19:47:38.805 [main] Graph:52 - [Graph] ================ SORTING
+[TRACE] 2024-07-21 19:47:38.806 [main] Graph:52 - [Graph] =============== DONE SORTING
+[TRACE] 2024-07-21 19:47:38.806 [main] Graph:52 - [Graph] ====== SORTED NODES
+[TRACE] 2024-07-21 19:47:38.807 [main] Graph:52 - [Graph] ====== END SORTED NODES
+[INFO ] 2024-07-21 19:47:38.807 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+[INFO ] 2024-07-21 19:47:38.807 [main] Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.808 [main] Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-07-21 19:47:38.818 [main] Utils:112 - [TestNG] Running:
+  C:\Users\shah4\AppData\Local\Temp\testng-eclipse--265966852\testng-customsuite.xml
 
-[INFO ] 2024-07-21 12:35:17.413 [main] Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
-[INFO ] 2024-07-21 12:35:19.075 [main] Sun1105Demo:28 - Initialized chrome driver
-[INFO ] 2024-07-21 12:35:19.130 [main] Sun1105Demo:30 - Maximized the window
-[INFO ] 2024-07-21 12:35:25.176 [main] Sun1105Demo:35 - Element is loaded and is visible
-[INFO ] 2024-07-21 12:35:25.295 [main] Sun1105Demo:37 - Entered data in name input field
-[INFO ] 2024-07-21 12:35:25.483 [main] Sun1105Demo:43 - Taken screenshot
-[INFO ] 2024-07-21 12:35:25.517 [main] Sun1105Demo:48 - 1
-[INFO ] 2024-07-21 12:35:25.517 [main] Sun1105Demo:49 - 2
-[INFO ] 2024-07-21 12:35:25.517 [main] Sun1105Demo:50 - 3
-[INFO ] 2024-07-21 12:35:25.518 [main] Sun1105Demo:51 - 4
-[INFO ] 2024-07-21 12:35:25.873 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@630d1b2f: 80 ms
-[TRACE] 2024-07-21 12:35:25.874 [main] Graph:52 - [Graph] ADDING NODE Sun1105Demo.test()[pri:0, instance:com.Practice.Selenium072024.Sun1105Demo@736d6a5c] 2103668122
-[TRACE] 2024-07-21 12:35:25.874 [main] Graph:52 - [Graph] ================ SORTING
-[TRACE] 2024-07-21 12:35:25.875 [main] Graph:52 - [Graph] =============== DONE SORTING
-[TRACE] 2024-07-21 12:35:25.875 [main] Graph:52 - [Graph] ====== SORTED NODES
-[TRACE] 2024-07-21 12:35:25.875 [main] Graph:52 - [Graph] ====== END SORTED NODES
-[INFO ] 2024-07-21 12:35:25.884 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@546621c4: 10 ms
-[INFO ] 2024-07-21 12:35:25.893 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@65bcf7c2: 9 ms
-[INFO ] 2024-07-21 12:35:25.902 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@719843e5: 8 ms
-[INFO ] 2024-07-21 12:35:25.913 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6a84bc3f: 9 ms
-[INFO ] 2024-07-21 12:35:25.913 [main] Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@258ee7de: 0 ms
+[INFO ] 2024-07-21 19:47:38.849 [main] Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+[INFO ] 2024-07-21 19:47:41.450 [main] Sun1105Demo:29 - Initialized chrome driver
+[INFO ] 2024-07-21 19:47:41.532 [main] Sun1105Demo:31 - Maximized the window
+[INFO ] 2024-07-21 19:47:48.092 [main] Sun1105Demo:36 - Element is loaded and is visible
+[INFO ] 2024-07-21 19:47:48.289 [main] Sun1105Demo:38 - Entered data in name input field
+[INFO ] 2024-07-21 19:47:48.672 [main] Sun1105Demo:44 - Taken screenshot
+[INFO ] 2024-07-21 19:47:48.715 [main] Sun1105Demo:50 - 1
+[INFO ] 2024-07-21 19:47:48.716 [main] Sun1105Demo:51 - 2
+[INFO ] 2024-07-21 19:47:48.716 [main] Sun1105Demo:52 - 3
+[INFO ] 2024-07-21 19:47:48.716 [main] Sun1105Demo:53 - 4
+[INFO ] 2024-07-21 19:47:49.125 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@62e7dffa: 84 ms
+[INFO ] 2024-07-21 19:47:49.126 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@6edcd0d8: 0 ms
+[INFO ] 2024-07-21 19:47:49.135 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@ae7950d: 9 ms
+[INFO ] 2024-07-21 19:47:49.144 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5f80fa43: 8 ms
+[INFO ] 2024-07-21 19:47:49.153 [main] Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5a8ba37c: 9 ms
+[INFO ] 2024-07-21 19:47:49.154 [main] Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@37c2eacb: 1 ms

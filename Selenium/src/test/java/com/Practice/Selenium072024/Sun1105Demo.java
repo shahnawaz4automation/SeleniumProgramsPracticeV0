@@ -16,15 +16,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class Sun1105Demo {
 	public final Logger logger = LogManager.getLogger();
-	SoftAssert softAssert = new SoftAssert();
+	public static WebDriver driver;
 	@Test
 	public void test() throws IOException {
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		logger.info("Initialized chrome driver");
 		driver.manage().window().maximize();
 		logger.info("Maximized the window");
@@ -44,13 +45,18 @@ public class Sun1105Demo {
 		
 		WebElement nameInput1 = driver.findElement(By.id("name"));
 		String class1 = nameInput1.getAttribute("class");
-		softAssert.assertTrue(class1.contains("contrdol"));
+		SoftAssert softAssert = new SoftAssert();
+		softAssert.assertTrue(class1.contains("control"));
 		logger.info("1");
 		logger.info("2");
 		logger.info("3");
 		logger.info("4");
 		
-		driver.quit();
+		
 		softAssert.assertAll();
+	}
+	@AfterTest
+	public void tearDown() {
+		driver.quit();
 	}
 }
