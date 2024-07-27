@@ -21,7 +21,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class Sun1105Demo {
-	public final Logger logger = LogManager.getLogger();
+	public final Logger logger = LogManager.getLogger(this.getClass().getName());
 	public static WebDriver driver;
 	@Test
 	public void test() throws IOException {
