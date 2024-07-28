@@ -15,6 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import jdk.internal.org.jline.utils.Log;
@@ -24,10 +25,11 @@ public class DemoGuru2807 {
 	private static WebDriver driver;
 	private static String browser;
 	@Test
-	public void test(){
+	@Parameters({"browser"})
+	public void test(String browser){
 		logger = LogManager.getLogger();
-		driver = new ChromeDriver();
-		if(browser=="chrome") {
+		//driver = new ChromeDriver();
+		if(browser.equalsIgnoreCase("chrome")) {
 			driver= new ChromeDriver();
 		}else if(browser=="edge") {
 			driver= new EdgeDriver();
