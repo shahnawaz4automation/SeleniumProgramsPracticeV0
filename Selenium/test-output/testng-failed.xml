@@ -4,11 +4,11 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.Practice.Selenium072024.DemoGuru2807">
+      <class name="com.Practice.Selenium072024.DemoGuru290724">
         <methods>
-          <include name="test" invocation-numbers="0"/>
+          <include name="LoggingInToApplication" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.Practice.Selenium072024.DemoGuru2807 -->
+      </class> <!-- com.Practice.Selenium072024.DemoGuru290724 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

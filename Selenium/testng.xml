@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
 	<parameter name="browser" value="chrome"></parameter>
-	<classes>
-		<class name="com.Practice.Selenium072024.DemoGuru2807"></class>
-	</classes>
+    <classes>
+      <class name="com.Practice.Selenium072024.DemoGuru290724"></class>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

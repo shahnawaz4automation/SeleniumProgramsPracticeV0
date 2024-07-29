@@ -14,20 +14,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import jdk.internal.org.jline.utils.Log;
-
-public class DemoGuru2807 {
-	private static Logger logger;
-	private static WebDriver driver;
+public class DemoGuru290724 {
+    private static Logger logger;
+    private static WebDriver driver;
 	@Test
 	@Parameters({"browser"})
-	public void test(String browser){
+	public void LoggingInToApplication(String browser){
 		logger = LogManager.getLogger();
-		//driver = new ChromeDriver();
 		if(browser.equalsIgnoreCase("chrome")) {
 			driver= new ChromeDriver();
 		}else if(browser=="edge") {
@@ -54,8 +51,7 @@ public class DemoGuru2807 {
 		logger.info("Clicked Enter");
 		
 		String elementText = driver.findElement(By.xpath("//h2[@class='barone']")).getText();
-		Assert.assertTrue(elementText.contains("Guru99 Bank"));
+		AssertJUnit.assertTrue(elementText.contains("Guru99 Bank"));
 		logger.info("Successfully logged in to the application");
-		
 	}
 }
