@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-02T21:27:19 IST" name="Suite" finished-at="2024-08-02T21:27:29 IST" duration-ms="10094">
+  <suite started-at="2024-08-02T23:00:42 IST" name="Parallel Test Suite" finished-at="2024-08-02T23:00:59 IST" duration-ms="16830">
     <groups>
     </groups>
-    <test started-at="2024-08-02T21:27:19 IST" name="Test" finished-at="2024-08-02T21:27:29 IST" duration-ms="10094">
-      <class name="com.Practice.Selenium072024.DemoGuru290724">
-        <test-method signature="LoggingInToApplication(java.lang.String)[pri:0, instance:com.Practice.Selenium072024.DemoGuru290724@3d9f6567]" started-at="2024-08-02T21:27:19 IST" name="LoggingInToApplication" finished-at="2024-08-02T21:27:29 IST" duration-ms="10018" status="PASS">
+    <test started-at="2024-08-02T23:00:42 IST" name="Test1" finished-at="2024-08-02T23:00:52 IST" duration-ms="9503">
+      <class name="com.Practice.Selenium072024.DemoGuru2807">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Practice.Selenium072024.DemoGuru2807@17cdf2d0]" started-at="2024-08-02T23:00:42 IST" name="setUp" finished-at="2024-08-02T23:00:44 IST" duration-ms="1531" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -17,8 +17,39 @@
           </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.Practice.Selenium072024.DemoGuru2807@17cdf2d0]" started-at="2024-08-02T23:00:44 IST" name="test" finished-at="2024-08-02T23:00:52 IST" duration-ms="7918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="testMethod1()[pri:0, instance:com.Practice.Selenium072024.DemoGuru2807@17cdf2d0]" started-at="2024-08-02T23:00:52 IST" name="testMethod1" finished-at="2024-08-02T23:00:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+      </class> <!-- com.Practice.Selenium072024.DemoGuru2807 -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-08-02T23:00:52 IST" name="Test2" finished-at="2024-08-02T23:00:59 IST" duration-ms="7286">
+      <class name="com.Practice.Selenium072024.DemoGuru290724">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Practice.Selenium072024.DemoGuru290724@62f68dff]" started-at="2024-08-02T23:00:52 IST" name="setUp" finished-at="2024-08-02T23:00:53 IST" duration-ms="1071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoggingInToApplication()[pri:0, instance:com.Practice.Selenium072024.DemoGuru290724@62f68dff]" started-at="2024-08-02T23:00:53 IST" name="LoggingInToApplication" finished-at="2024-08-02T23:00:59 IST" duration-ms="6201" status="PASS">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- LoggingInToApplication -->
+        <test-method signature="testMethod2()[pri:0, instance:com.Practice.Selenium072024.DemoGuru290724@62f68dff]" started-at="2024-08-02T23:00:59 IST" name="testMethod2" finished-at="2024-08-02T23:00:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
       </class> <!-- com.Practice.Selenium072024.DemoGuru290724 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Parallel Test Suite -->
 </testng-results>
