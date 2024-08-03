@@ -1,13 +1,8 @@
-[INFO ] 2024-08-02 23:00:42.548 [main] Utils:112 - [TestNG] Running:
+[INFO ] 2024-08-03 12:43:23.130 [main] Utils:112 - [TestNG] Running:
   C:\Users\shah4\eclipse-workspace\SeleniumPracticeV0\Selenium\testng.xml
 
-[INFO ] 2024-08-02 23:00:48.888 [TestNG-test-Test1-1] DemoGuru2807:44 - Login page opened
-[INFO ] 2024-08-02 23:00:49.078 [TestNG-test-Test1-1] DemoGuru2807:49 - Entered Username
-[INFO ] 2024-08-02 23:00:49.210 [TestNG-test-Test1-1] DemoGuru2807:52 - Entered Password
-[INFO ] 2024-08-02 23:00:51.871 [TestNG-test-Test1-1] DemoGuru2807:56 - Clicked Enter
-[INFO ] 2024-08-02 23:00:51.909 [TestNG-test-Test1-1] DemoGuru2807:60 - Successfully logged in to the application
-[INFO ] 2024-08-02 23:00:57.244 [TestNG-test-Test2-1] DemoGuru290724:45 - Login page opened
-[INFO ] 2024-08-02 23:00:57.424 [TestNG-test-Test2-1] DemoGuru290724:50 - Entered Username
-[INFO ] 2024-08-02 23:00:57.570 [TestNG-test-Test2-1] DemoGuru290724:53 - Entered Password
-[INFO ] 2024-08-02 23:00:59.177 [TestNG-test-Test2-1] DemoGuru290724:57 - Clicked Enter
-[INFO ] 2024-08-02 23:00:59.218 [TestNG-test-Test2-1] DemoGuru290724:61 - Successfully logged in to the application
+[INFO ] 2024-08-03 12:43:28.903 [TestNG-tests-1] DemoGuru2807:44 - Login page opened
+[INFO ] 2024-08-03 12:43:29.123 [TestNG-tests-1] DemoGuru2807:49 - Entered Username
+[INFO ] 2024-08-03 12:43:29.255 [TestNG-tests-1] DemoGuru2807:52 - Entered Password
+[INFO ] 2024-08-03 12:43:33.081 [TestNG-tests-1] DemoGuru2807:56 - Clicked Enter
+[INFO ] 2024-08-03 12:43:33.115 [TestNG-tests-1] DemoGuru2807:60 - Successfully logged in to the application

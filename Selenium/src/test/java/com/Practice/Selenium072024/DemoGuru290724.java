@@ -38,7 +38,7 @@ public class DemoGuru290724 {
 		//driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 	}
 
-	@Test
+	@Test(enabled = true)
 	public void LoggingInToApplication() {
 
 		driver.get("https://demo.guru99.com/v4/index.php");
