@@ -14,7 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.AssertJUnit;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -57,7 +57,7 @@ public class DemoGuru290724 {
 		logger.info("Clicked Enter");
 
 		String elementText = driver.findElement(By.xpath("//h2[@class='barone']")).getText();
-		AssertJUnit.assertTrue(elementText.contains("Guru99 Bank"));
+		Assert.assertTrue(elementText.contains("Guru99 Bank"));
 		logger.info("Successfully logged in to the application");
 
 		driver.quit();
