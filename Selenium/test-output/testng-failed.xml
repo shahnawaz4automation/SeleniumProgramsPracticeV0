@@ -6,6 +6,7 @@
       <class name="com.Practice.Selenium082024.DemoGuru150824">
         <methods>
           <include name="appTest"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.Practice.Selenium082024.DemoGuru150824 -->
     </classes>

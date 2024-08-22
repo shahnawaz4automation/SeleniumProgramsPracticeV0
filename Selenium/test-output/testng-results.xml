@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-15T20:58:07 IST" name="Default suite" finished-at="2024-08-15T20:58:14 IST" duration-ms="7766">
+  <suite started-at="2024-08-22T20:29:17 IST" name="Default suite" finished-at="2024-08-22T20:29:26 IST" duration-ms="9083">
     <groups>
     </groups>
-    <test started-at="2024-08-15T20:58:07 IST" name="Default test" finished-at="2024-08-15T20:58:14 IST" duration-ms="7766">
+    <test started-at="2024-08-22T20:29:17 IST" name="Default test" finished-at="2024-08-22T20:29:26 IST" duration-ms="9083">
       <class name="com.Practice.Selenium082024.DemoGuru150824">
-        <test-method signature="appTest()[pri:0, instance:com.Practice.Selenium082024.DemoGuru150824@5d1659ea]" started-at="2024-08-15T20:58:07 IST" name="appTest" finished-at="2024-08-15T20:58:14 IST" duration-ms="7539" status="PASS">
+        <test-method signature="appTest()[pri:0, instance:com.Practice.Selenium082024.DemoGuru150824@5d1659ea]" started-at="2024-08-22T20:29:17 IST" name="appTest" finished-at="2024-08-22T20:29:26 IST" duration-ms="8814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Practice.Selenium082024.DemoGuru150824@5d1659ea]" started-at="2024-08-15T20:58:14 IST" name="tearDown" finished-at="2024-08-15T20:58:14 IST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Practice.Selenium082024.DemoGuru150824@5d1659ea]" started-at="2024-08-22T20:29:26 IST" name="tearDown" finished-at="2024-08-22T20:29:26 IST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
