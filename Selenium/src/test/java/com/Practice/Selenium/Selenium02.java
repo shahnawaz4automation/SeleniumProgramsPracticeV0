@@ -78,7 +78,28 @@ public class Selenium02 {
 	        // 3. do you want to run on multiple browsers?
 	        // RemoteWebDriver driver (with GRID) - Advance (Last 2 Sessions)
 
+	        //---------------------------------------------------------------------------------------------------------------
+	     // In object-oriented programming (OOP), we can use interfaces and classes in a flexible way.
+	        // The basic idea is to use a general reference (like WebDriver) to refer to specific objects (like ChromeDriver or EdgeDriver).
 
+	        // Let's imagine:
+	        // WebDriver is like a remote control that can operate different types of devices (browsers).
+	        // ChromeDriver, EdgeDriver, etc., are the actual devices (browsers) the remote control can operate.
+
+	        // Here's what the code is doing:
+
+	        // 1. Create a new EdgeDriver (browser) using a WebDriver reference (remote control).
+	        WebDriver driver2 = new EdgeDriver();
+
+	        // 2. Now, change the reference to point to a different browser (ChromeDriver).
+	        driver2 = new ChromeDriver();
+
+	        // Why is this useful?
+	        // If you had used EdgeDriver driver = new EdgeDriver(); (Case 1),
+	        // you would be stuck with only EdgeDriver. You couldn't reuse the same reference to switch to another browser like ChromeDriver.
+	        // By using WebDriver driver1, you can easily switch between different browsers.
+	        
+	        // This is called dynamic dispatch or upcasting in OOP, where a parent class (WebDriver) reference can point to any of its child classes (like ChromeDriver, EdgeDriver, etc.).
 
 
 
