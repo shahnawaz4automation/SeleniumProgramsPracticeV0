@@ -3,7 +3,6 @@ package com.Practice.Selenium;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.Test;
 
 public class Selenium03 {
@@ -21,7 +20,7 @@ public class Selenium03 {
 		// Add headless mode to ChromeOptions
 		options.addArguments("--headless");
 		//options.addArguments("--window-size=1920,1080"); // Optional: set window size
-		// edgeOptions.addExtensions(new File("/Users/pramod/Downloads/AdBlock1.crx"));
+		// edgeOptions.addExtensions(new File("/Users/shah4/Downloads/AdBlock1.crx"));
 		
 		// Initialize Chrome driver
 		WebDriver driver = new ChromeDriver(options);
