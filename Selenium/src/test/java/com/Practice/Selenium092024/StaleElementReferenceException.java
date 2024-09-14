@@ -34,7 +34,7 @@ public class StaleElementReferenceException {
 		
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File trg = new File("./screenshots/shahid.png");
+		File trg = new File("./screenshots/screenshot	.png");
 		FileUtils.copyFile(src, trg);
 		
 		driver.quit();
