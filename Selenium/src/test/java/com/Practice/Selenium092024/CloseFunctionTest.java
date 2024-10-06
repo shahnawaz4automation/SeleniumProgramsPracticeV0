@@ -14,5 +14,6 @@ public class CloseFunctionTest {
 		driver.switchTo().newWindow(WindowType.WINDOW);
 		driver.get("https://www.facebook.com");
 		driver.close();
+		// close the browser
 		}
 }
