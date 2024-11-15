@@ -26,14 +26,14 @@ public class DemoGuru2208 {
 		logger.info("Chrome Driver launched");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.get("https://demo.guru99.com/v4/index.php");
+		driver.get("https://demo.guru99.com/V4/index.php");
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement userId = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='uid']")));
 
-		userId.sendKeys("mngr587183");
+		userId.sendKeys("mngr601045");
 		WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
-		password.sendKeys("hUmusyt");
+		password.sendKeys("enabypY");
 
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ENTER).perform();
