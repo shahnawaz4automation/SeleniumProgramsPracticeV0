@@ -1,10 +1,15 @@
 package com.Practice.Selenium112024;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,7 +19,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class HandlingAJAXcalls {
 	private static Logger logger;
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		WebDriver driver = new ChromeDriver();
 		logger = LogManager.getLogger();
 		
@@ -31,6 +36,10 @@ public class HandlingAJAXcalls {
         
         System.out.println(loadedElement.getText());
         
+        TakesScreenshot ts = (TakesScreenshot)driver;
+        File src = ts.getScreenshotAs(OutputType.FILE);
+        File trg = new File("./screenshots/Screenshot.png");
+        FileUtils.copyFile(src, trg);
 		driver.quit();
 	}
 }
