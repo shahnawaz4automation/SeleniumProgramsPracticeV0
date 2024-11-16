@@ -19,7 +19,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class HandlingAJAXcalls {
 	private static Logger logger;
 	
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		logger = LogManager.getLogger();
 		
@@ -46,11 +46,19 @@ public class HandlingAJAXcalls {
         else {
         	System.out.println("Style is incorrect");
         }
+        
+        loadedElement.getAttribute("name");
         TakesScreenshot ts = (TakesScreenshot)driver;
         File src = ts.getScreenshotAs(OutputType.FILE);
         File trg = new File("./screenshots/Screenshot.png");
         FileUtils.copyFile(src, trg);
-		driver.quit();
-		
+        Thread.sleep(1000);
+        if(driver!=null) {
+        	try {
+        		driver.close();
+    		} catch (Exception e) {
+    			System.out.println("Error while quitting driver: " + e.getMessage());
+    		}
+        }	
 	}
 }
