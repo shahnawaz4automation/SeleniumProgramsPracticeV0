@@ -36,10 +36,14 @@ public class HandlingAJAXcalls {
         
         System.out.println(loadedElement.getText());
         
+        String style = loadedElement.getCssValue("font-size");
+        
+        System.out.println(style);
         TakesScreenshot ts = (TakesScreenshot)driver;
         File src = ts.getScreenshotAs(OutputType.FILE);
         File trg = new File("./screenshots/Screenshot.png");
         FileUtils.copyFile(src, trg);
 		driver.quit();
+		
 	}
 }
