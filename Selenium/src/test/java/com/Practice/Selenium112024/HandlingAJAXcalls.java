@@ -39,6 +39,13 @@ public class HandlingAJAXcalls {
         String style = loadedElement.getCssValue("font-size");
         
         System.out.println(style);
+        
+        if(style.equals("22px")) {
+        	System.out.println("Style is correct");
+        }
+        else {
+        	System.out.println("Style is incorrect");
+        }
         TakesScreenshot ts = (TakesScreenshot)driver;
         File src = ts.getScreenshotAs(OutputType.FILE);
         File trg = new File("./screenshots/Screenshot.png");
