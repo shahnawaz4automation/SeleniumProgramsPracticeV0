@@ -56,7 +56,7 @@ public class HandlingAJAXcalls {
 		String name = loadedElement.getAttribute("name");
 		System.out.println(name);
 		
-		System.out.println(j;
+		System.out.println("Closing the browser");
 		driver.close();
 		/*
 		 * Thread.sleep(1000); if(driver!=null) { try { driver.close(); } catch
