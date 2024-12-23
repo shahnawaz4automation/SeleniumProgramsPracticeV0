@@ -33,6 +33,10 @@ public class TestingDropdowns {
 		List<WebElement> dropdownValues = select.getOptions();
 		System.out.println(dropdownValues.size());
 		
+		for(int i = 0; i <dropdownValues.size(); i++)
+		{
+			System.out.println(dropdownValues.get(i).getClass());
+		}
 		driver.quit();
 	}
 
