@@ -30,10 +30,10 @@ public class TestingDropdowns {
 		Thread.sleep(1000);
 		select.selectByValue("germany");
 		
-		List<WebElement> dropdownValues = driver.findElements(By.xpath("//select[@id='country']"));
+		List<WebElement> dropdownValues = select.getOptions();
 		System.out.println(dropdownValues.size());
 		
-		
+		driver.quit();
 	}
 
 }
