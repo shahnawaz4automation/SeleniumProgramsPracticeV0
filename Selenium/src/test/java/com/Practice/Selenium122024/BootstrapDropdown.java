@@ -24,7 +24,7 @@ public class BootstrapDropdown {
 
 		for (WebElement checkBox : checkBoxOptions) {
 			String option = checkBox.getText().trim();
-			System.out.println(option);
+			//System.out.println(option);
 			if (option.equals("Java")) {
 				Thread.sleep(1000);
 				if (!checkBox.isSelected()) {
