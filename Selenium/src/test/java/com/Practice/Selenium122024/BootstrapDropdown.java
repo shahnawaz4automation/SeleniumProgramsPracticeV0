@@ -6,6 +6,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BootstrapDropdown {
@@ -38,7 +39,7 @@ public class BootstrapDropdown {
 
 		System.out.println(size);
 
-		// driver.quit();
+		driver.quit();
 		// driver.findElement(By.xpath("//button[@class='multiselect dropdown-toggle btn
 		// btn-default']")).click();
 	}
