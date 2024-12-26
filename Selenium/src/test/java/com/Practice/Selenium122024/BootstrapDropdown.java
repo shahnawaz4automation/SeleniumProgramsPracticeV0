@@ -38,10 +38,9 @@ public class BootstrapDropdown {
 		}
 
 		System.out.println(size);
-
+		//driver.findElement(By.xpath("//button[@class='multiselect dropdown-toggle btn btn-default']")).click();
 		driver.quit();
-		// driver.findElement(By.xpath("//button[@class='multiselect dropdown-toggle btn
-		// btn-default']")).click();
+		
 	}
 
 }
