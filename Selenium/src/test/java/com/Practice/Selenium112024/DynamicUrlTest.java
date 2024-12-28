@@ -11,6 +11,12 @@ public class DynamicUrlTest {
 		System.out.println(dynamicURL);
 
 		// Output: https://example.com/login?user=testUser
+		
+		String dynamicURL1 = new String(baseURL);
+		System.out.println(dynamicURL1);
+		dynamicURL1.concat("/login?user=");
+		System.out.println(dynamicURL1);
+
 
 	}
 }
