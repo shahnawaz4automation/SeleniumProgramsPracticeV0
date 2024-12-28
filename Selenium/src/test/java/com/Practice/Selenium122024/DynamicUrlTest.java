@@ -1,4 +1,4 @@
-package com.Practice.Selenium112024;
+package com.Practice.Selenium122024;
 
 public class DynamicUrlTest {
 
