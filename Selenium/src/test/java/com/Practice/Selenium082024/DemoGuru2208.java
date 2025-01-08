@@ -38,7 +38,7 @@ public class DemoGuru2208 {
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ENTER).perform();
 
-		// driver.switchTo().alert().accept();
+		driver.switchTo().alert().accept();
 
 		TakesScreenshot ts = driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
