@@ -45,6 +45,6 @@ public class DemoGuru2208 {
 		File trg = new File(".\\screenshots\\22082024.png");
 		FileUtils.copyFile(src, trg);
 
-		//driver.quit();
+		driver.quit();
 	}
 }
