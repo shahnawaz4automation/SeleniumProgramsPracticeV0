@@ -8,6 +8,6 @@ public class Practice23062025 {
 	@Test
 	public void program() {
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.google.com");
+		driver.get("https://www.amazon.com");
 	}
 }
