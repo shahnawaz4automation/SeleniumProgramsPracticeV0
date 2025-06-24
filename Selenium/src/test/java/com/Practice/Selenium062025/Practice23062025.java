@@ -1,21 +1,28 @@
 package com.Practice.Selenium062025;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.Options;
+import org.openqa.selenium.WebDriver.Window;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class Practice23062025 {
+	WebElement books;
 	@Test
 	public void program() {
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.amazon.in");
 		driver.manage().window().maximize();
-		WebElement books = driver.findElement(By.xpath("//a[@href=\"/Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books\"]"));
-		String innerText = books.getText();
-		System.out.println("Text is: " + innerText);
+		driver.get("https://omayo.blogspot.com/2013/05/page-one.html");
+		System.out.println(driver.findElement(By.xpath("//*[@id=\"HTML11\"]/div[1]/textarea")).getAttribute("name"));
 		
-		driver.close();
+		WebElement button = driver.findElement(By.xpath("//*[@id=\"but1\"]"));
+		System.out.println(button.isEnabled());
+		System.out.println(button.isDisplayed());
+		System.out.println(button.isSelected());
+		
+		driver.quit();
 	}
 }
