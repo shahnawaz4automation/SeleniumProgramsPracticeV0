@@ -14,6 +14,7 @@ public class ElementSize {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().fullscreen();
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(2));
 		driver.get("https://tutorialsninja.com/demo/");
 		WebElement search = driver.findElement(By.name("search"));
 		
