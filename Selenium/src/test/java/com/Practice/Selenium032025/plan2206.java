@@ -14,7 +14,9 @@ public class plan2206 {
 	@Test
 	public void launchBrowser() {
 		Scanner scan = new Scanner(System.in);
-		String browser = scan.next();switch (browser) {
+		String browser = scan.next();
+		
+		switch (browser) {
 		case "chrome":
 			driver = new ChromeDriver();
 			driver.get("https://www.google.com");
@@ -24,7 +26,7 @@ public class plan2206 {
 			driver = new FirefoxDriver();
 			driver.get("https://www.google.com");
 			break;
-			
+
 		case "edge":
 			driver = new EdgeDriver();
 			driver.get("https://www.google.com");
