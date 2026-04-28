@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class plan2206 {
+public class SwitchStmt2206 {
 	public WebDriver driver;
 
 	@Test
