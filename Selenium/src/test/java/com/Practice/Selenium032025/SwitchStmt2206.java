@@ -15,7 +15,7 @@ public class SwitchStmt2206 {
 	public void launchBrowser() {
 		Scanner scan = new Scanner(System.in);
 		String browser = scan.next();
-		
+
 		switch (browser) {
 		case "chrome":
 			driver = new ChromeDriver();
@@ -33,20 +33,20 @@ public class SwitchStmt2206 {
 			break;
 		}
 	}
-	
+
 	public void launchBrowser2() {
 		Scanner scan = new Scanner(System.in);
 		String browser = scan.next();
-		
-		switch(browser) {
+
+		switch (browser) {
 		case "chrome":
 			driver = new ChromeDriver();
 			break;
-			
+
 		case "firefox":
 			driver = new EdgeDriver();
 			break;
-			
+
 		default:
 			driver = new FirefoxDriver();
 		}
