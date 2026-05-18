@@ -27,7 +27,6 @@ public class Program1705 {
 		alert.accept();
 		
 		driver.findElement(By.xpath("//input[@value='female']")).click();
-		
 		driver.quit();
 		
 		
