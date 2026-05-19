@@ -20,8 +20,7 @@ public class Program1705 {
 		textArea2.clear();
 		textArea2.sendKeys("searchArea");
 		
-		driver.findElement(By.xpath("//input[@value='male']")).click();
-		
+		driver.findElement(By.xpath("//input[@value='male']")).click();		
 		driver.findElement(By.xpath("//input[@value='ClickToGetAlert']")).click();
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
