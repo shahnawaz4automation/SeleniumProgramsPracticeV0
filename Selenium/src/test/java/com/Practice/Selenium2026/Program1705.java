@@ -26,11 +26,6 @@ public class Program1705 {
 		
 		driver.findElement(By.xpath("//input[@value='female']")).click();
 		driver.quit();
-		
-		
-		//WebElement searchArea = driver.findElement(By.xpath("//textarea[@title='Search']"));
-		//searchArea.sendKeys("searchArea");
-		//searchArea.sendKeys(Keys.ENTER);
 	}
 	
 }
