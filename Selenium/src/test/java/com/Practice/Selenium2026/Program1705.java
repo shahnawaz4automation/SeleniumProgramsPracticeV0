@@ -23,7 +23,6 @@ public class Program1705 {
 		driver.findElement(By.xpath("//input[@value='ClickToGetAlert']")).click();
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		
 		driver.findElement(By.xpath("//input[@value='female']")).click();
 		driver.quit();
 	}
