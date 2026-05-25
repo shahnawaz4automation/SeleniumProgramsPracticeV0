@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 public class Program1705 {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
-		
 		String url = "https://omayo.blogspot.com/";
 		//driver = null;
 		driver.get(url);
