@@ -12,7 +12,6 @@ public class Program1705 {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		String url = "https://omayo.blogspot.com/";
-		//driver = null;
 		driver.get(url);
 		driver.manage().window().maximize();
 		WebElement textArea2 = driver.findElement(By.xpath("//textarea[contains(text(),'The cat wa009292s playing in the garden.')]"));
