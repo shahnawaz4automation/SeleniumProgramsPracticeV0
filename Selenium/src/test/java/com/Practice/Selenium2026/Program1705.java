@@ -14,8 +14,7 @@ public class Program1705 {
 		String url = "https://omayo.blogspot.com/";
 		driver.get(url);
 		driver.manage().window().maximize();
-		WebElement textArea2 = driver
-				.findElement(By.xpath("//textarea[contains(text(),'The cat wa009292s playing in the garden.')]"));
+		WebElement textArea2 = driver.findElement(By.xpath("//textarea[contains(text(),'The cat wa009292s playing in the garden.')]"));
 		textArea2.clear();
 		textArea2.sendKeys("searchArea");
 		driver.findElement(By.xpath("//input[@value='male']")).click();
