@@ -15,7 +15,7 @@ public class Program1705 {
 		driver.get(url);
 		driver.manage().window().maximize();
 		WebElement textArea2 = driver.findElement(By.xpath("//textarea[contains(text(),'The cat wa009292s playing in the garden.')]"));
-		textArea2.clear();
+		//textArea2.clear();
 		textArea2.sendKeys("searchArea");
 		driver.findElement(By.xpath("//input[@value='male']")).click();
 		driver.findElement(By.xpath("//input[@value='ClickToGetAlert']")).click();
